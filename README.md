@@ -3,6 +3,15 @@
 ### What's this project?
 This script will take Shadowsocks config addresses as a file and lookup thier IP addresses and change configs' name acording to IP data and store them in an output file. It can also get a single input from command line and then show result in console.
 
+### Usage
+**Single config:**
+```bash
+$ ./ss.sh ss://your_config
+```
+**Multiple configs (in a file):**
+```bash
+$ ./ss.sh -i INPUT -o OUTPUT
+```
 ### Example
 **Using file option:**
 ```bash
